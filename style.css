@@ -15,6 +15,11 @@ body, h1, h2, p {
     padding: 0;
 }
 
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -138,11 +143,11 @@ header {
 }
 
 .dropbtn {
-    background-color: #007BFF; /* Button background color */
+    background-color: #afb1b3; /* Button background color */
     color: #fff; /* Button text color */
-    padding: 10px 20px;
+    padding: 100px 20px;
     font-size: 16px;
-    border: none;
+    border: #333;
     cursor: pointer;
 }
 
@@ -184,7 +189,7 @@ header {
 /* Style for the dropdown button */
 .dropbtn {
     background-color: #333; /* Background color for the button */
-    color: #fff; /* Text color for the button */
+    color: #f90000; /* Text color for the button */
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -344,4 +349,19 @@ footer {
 section {
     margin-bottom: 20px;
 }
+
+
+.btn-signup {
+    color: white;
+    border-radius:0px 30px;
+    /* border: white; */
+    padding: 10px 50px;
+    cursor: pointer;
+    background-color: #007BFF;
+}
+
+.btn-signup:hover {   
+    background-color: #0077b6;
+}
+
 
